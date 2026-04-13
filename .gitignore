@@ -1,0 +1,41 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# ── Virtual environment ───────────────────────────────────────────────────────
+backend/.venv/
+.venv/
+venv/
+
+# ── Database (local SQLite — never commit) ────────────────────────────────────
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# ── Generated images (local storage) ─────────────────────────────────────────
+backend/local-images/
+
+# ── Product data (may contain proprietary data) ───────────────────────────────
+backend/data/*.xlsx
+backend/data/*.csv
+
+# ── Google service account (credentials) ─────────────────────────────────────
+backend/service-account.json
+backend/*.json
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+
+# ── Pytest / Coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
